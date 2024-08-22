@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar</title>
+    <style>
+        .navbar{
+            border: 1px solid black;
+            /* height: 12px; */
+            width: 100vw;
+            display: flex;
+            border-radius: 5px;
+            padding: 1px;
+            box-sizing: border-box;
+            background-color: #222020;
+
+        }
+        .navbar ul{
+            font-size: 20px;
+            display: flex;
+            padding-bottom: 0px;
+            padding-right: 71px;
+            /* justify-content: right; */
+            margin: auto;
+        }
+        li{
+            color: beige;
+            padding-left:12px;
+            margin: 2px;
+            list-style: none;
+            /* border: 1px solid  rgb(201, 196, 196); */
+            /* margin: 1px; */
+            border-radius: 10px;
+        }
+        li:hover{
+            cursor: pointer;
+            /* background-color: rgb(90, 92, 92); */
+            text-decoration: underline;
+        }
+        .navbar span{
+            color: beige;
+            padding: 6px;
+            margin-left: 12px;
+            font-size: 25px;
+
+        }
+        .button{
+            margin-right: 2px;
+            font-size: 15px;
+            font-weight: 700;
+            height: 23px;
+            margin-top: 10px;
+            border-radius: 6px;
+        }
+        .button:hover{
+            cursor: pointer;
+            background-color: rgb(205, 205, 223);
+        }
+        .image{
+            border-radius: 40px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <span>Devpharm</span>
+        <img class="image" height="41px"src="16362752.jpg" width="auto"
+        >
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+        </ul>
+
+    <button class="button">Contact</button>
+
+    </nav>
+    
+</body>
+</html>
